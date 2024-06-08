@@ -1,7 +1,7 @@
 /*
  * Transmitter code for Westernaires suit arduino systems. 
  * This sketch sends repetitive radio signals indicating the current desired state of the lights. 
- * There are several patterns that are deterined by the state of the switches on the box (in the final design)
+ * There are several patterns that are determined by the state of the switches on the box (in the final design)
  */
 #include <Keypad.h>
 #define RF24_SPI_SPEED 4000000
